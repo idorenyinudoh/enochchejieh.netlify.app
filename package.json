@@ -11,12 +11,14 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "lint": "eslint --ext .js,.jsx --ignore-path .gitignore "
   },
   "dependencies": {
     "classnames": "^2.2.6",
     "dotenv": "^8.2.0",
     "gatsby": "^3.0.1",
+    "gatsby-plugin-manifest": "^3.0.0",
     "gatsby-plugin-sass": "^3.0.0",
     "gatsby-plugin-scroll-reveal": "0.0.7",
     "gatsby-source-cloudinary": "^0.1.14",
