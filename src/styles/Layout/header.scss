@@ -166,8 +166,8 @@ $animate: all 0.2s ease-in-out;
 .mobile-nav-open {
   display: flex;
   flex-direction: column;
-  min-width: 100%;
-  min-height: 100%;
+  min-width: 100vw;
+  min-height: 100vh;
   position: absolute;
   top: 0;
   left: 0;

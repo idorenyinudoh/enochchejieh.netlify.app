@@ -1,15 +1,7 @@
-/**
- * Layout component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.com/docs/use-static-query/
- */
-
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Helmet } from 'react-helmet'
 import OnLoadPage from './onloadpage'
-// import { useStaticQuery, graphql } from "gatsby"
 
 const Layout = ({ children }) => {
   if (typeof window !== 'undefined') {

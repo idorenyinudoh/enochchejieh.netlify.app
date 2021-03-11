@@ -7,11 +7,9 @@ import Projects from '../components/Projects/projects'
 import Writing from '../components/Writing/writing'
 import Contact from '../components/Contact/contact'
 import '../styles/main.scss'
-// import ScreenWidth from "../components/Utils/ScreenWidth"
 import SEO from '../components/seo'
 
 const IndexPage = ({ location }) => {
-  // const { width } = ScreenWidth()
   const hash = location.hash.split('#')[1]
   const currentRoute = hash || 'home'
   const title = currentRoute.replace(/^./, currentRoute[0].toUpperCase())
