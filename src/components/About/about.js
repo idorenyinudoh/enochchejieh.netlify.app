@@ -1,5 +1,5 @@
 import React from 'react'
-import ProfileImage from '../image'
+import Profile from '../profile'
 import Typewriter from 'typewriter-effect'
 
 const About = () => {
@@ -29,7 +29,7 @@ const About = () => {
             <li>Python</li>
           </ul>
         </div>
-        <ProfileImage />
+        <Profile />
       </div>
     </>
   )

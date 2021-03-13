@@ -2,9 +2,9 @@
 import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 
-const ProfileImage = () => {
+const Profile = () => {
   const data = useStaticQuery(graphql`
-    query CloudinaryImage {
+    query Profile {
       cloudinaryMedia(id: { eq: "7a98cff9-4fb8-54d7-ba87-ed13ea3185c8" }) {
         secure_url
       }
@@ -16,4 +16,4 @@ const ProfileImage = () => {
   return <img className="picture" src={image} alt="Enoch Chejieh" />
 }
 
-export default ProfileImage
+export default Profile
