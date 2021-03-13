@@ -1,4 +1,6 @@
 import React from 'react'
+import LaptopNg from '../laptopng'
+import CozaStore from '../cozastore'
 
 const Projects = () => {
   return (
@@ -6,6 +8,7 @@ const Projects = () => {
       <h3>Some of my work</h3>
       <div className="project-card-container">
         <a href="https://laptopng.herokuapp.com" className="project-card">
+          <LaptopNg />
           <div className="desc">
             <em>
               Online laptop e-commerce store built with <b>React.js</b>,{' '}
@@ -14,6 +17,7 @@ const Projects = () => {
           </div>
         </a>
         <a href="https://github.com/ECJ222/Coza-Store" className="project-card">
+          <CozaStore />
           <div className="desc">
             <em>
               Online clothing e-commerce store with guest checkout build with{' '}

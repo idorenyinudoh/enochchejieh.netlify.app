@@ -19,12 +19,14 @@ const Desktopheader = () => {
   }
 
   const openMenu = () => {
-    const Menu = document.getElementById('hamburger').classList
-    Menu.toggle('open')
-    if (Menu.length > 0) {
-      setMenuOpen(true)
-    } else {
-      setMenuOpen(false)
+    if (width <= 900) {
+      const Menu = document.getElementById('hamburger').classList
+      Menu.toggle('open')
+      if (Menu.length > 0) {
+        setMenuOpen(true)
+      } else {
+        setMenuOpen(false)
+      }
     }
   }
 
@@ -49,6 +51,7 @@ const Desktopheader = () => {
               ? 'animate__animated animate__fadeInDownBig'
               : ''
           }
+          onClick={openMenu}
         >
           ABOUT
         </Link>
@@ -59,8 +62,9 @@ const Desktopheader = () => {
               ? 'animate__animated animate__fadeInDownBig'
               : ''
           }
+          onClick={openMenu}
         >
-          PROJECTS
+          CRAFTS
         </Link>
         <Link
           to="/#writing"
@@ -69,6 +73,7 @@ const Desktopheader = () => {
               ? 'animate__animated animate__fadeInDownBig'
               : ''
           }
+          onClick={openMenu}
         >
           WRITING
         </Link>
@@ -79,6 +84,7 @@ const Desktopheader = () => {
               ? 'animate__animated animate__fadeInDownBig'
               : ''
           }
+          onClick={openMenu}
         >
           CONTACT
         </Link>
