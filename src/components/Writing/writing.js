@@ -17,6 +17,22 @@ const Writing = () => {
           </span>
         </a>
       </div>
+      <div className="writing-container">
+        <a
+          href="https://medium.com/nerd-for-tech/test-driven-development-in-react-with-react-testing-library-and-jest-8f85430441fb"
+          className="writing"
+          data-sal="slide-up"
+          data-sal-duration="500"
+        >
+          <h4>
+            Test-Driven Development in React with React Testing Library and Jest
+          </h4>
+          <span>
+            I wrote an article explaining on test driven development in react
+            using react testing library and jest.
+          </span>
+        </a>
+      </div>
     </div>
   )
 }

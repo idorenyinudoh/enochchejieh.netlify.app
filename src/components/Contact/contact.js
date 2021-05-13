@@ -1,4 +1,5 @@
 import React from 'react'
+import resume from '../../assets/Resume/Enoch.pdf'
 
 const Contact = () => {
   return (
@@ -13,7 +14,9 @@ const Contact = () => {
           <a href="https://www.linkedin.com/in/enoch-chejieh-a39652155/">
             LinkedIn
           </a>
-          <a href="#">Resumé</a>
+          <a href={resume} download>
+            Resumé
+          </a>
         </div>
       </div>
     </footer>
